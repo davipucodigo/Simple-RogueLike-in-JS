@@ -1,0 +1,25 @@
+* {padding: 0; margin: 0;}
+
+body {background-color: black;}
+
+#titleG {
+    display: block;
+    margin-top: 50px;
+    color: rgb(209, 209, 209);
+    text-align: center;
+}
+
+#cv {
+    display: block;
+    margin: auto;
+    margin-top: 100px;
+    border: 1px solid white;
+}
+
+#panelHero {
+    display: block;
+    margin-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
