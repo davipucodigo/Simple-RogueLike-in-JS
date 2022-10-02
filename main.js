@@ -104,7 +104,7 @@ document.addEventListener("keydown", (e) => {
         case "p": 
             player.posx =80
             player.posy=80
-            player.time = 18000000
+            player.time = 1800
             player.health= 100
             player.exist = true
             lvlword.levelNumber=0

@@ -69,7 +69,7 @@ class LevelWord {
                         }
                 }
 
-                if (this.levelnow[y][x] != 0 && this.levelnow[y][x] != ">]" && this.levelnow[y][x] != "N" && this.levelnow[y][x] != "*") {
+                if (this.levelnow[y][x] != 0 && this.levelnow[y][x] != ">]" && this.levelnow[y][x] != "N" && this.levelnow[y][x] != "*" && this.levelnow[y][x] != "T" ) {
                     /*c.fillStyle = pallete[2]
                     c.fillRect(x*size, y*size,size,size)*/
                     if (player.posx+size > x*size && player.posx < x*size+16 && player.posy+size > y*size && player.posy < y*size+16) {

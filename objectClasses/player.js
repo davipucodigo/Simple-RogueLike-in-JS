@@ -1,6 +1,6 @@
 class Player {
     constructor () {
-        this.time = 18000000
+        this.time = 1800
         this.posx = 80
         this.posy = 80
         this.symbol = "@"
