@@ -63,10 +63,12 @@ class LevelWord {
                         }
                         enemyN.time = 0
                     }
+                    if (player.health > 0) {
                         if (player.posx+size > enemyN.posx+x*size && player.posy+size > enemyN.posy+y*size && player.posx < enemyN.posx+x*size+16 && player.posy < enemyN.posy+y*size+16) {
                             console.log("Inimigo dano")
                             player.health-=1
                         }
+                    }
                 }
 
                 if (this.levelnow[y][x] != 0 && this.levelnow[y][x] != ">]" && this.levelnow[y][x] != "N" && this.levelnow[y][x] != "*" && this.levelnow[y][x] != "T" ) {

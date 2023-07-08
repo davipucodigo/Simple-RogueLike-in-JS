@@ -67,6 +67,9 @@ lvlword.PushLevel(level6)
             speedGameEnemy =  10
         }
         lvlword.RenderLevels()
+        
+        this.titleRoom = document.getElementById("titleG")
+        this.titleRoom.innerText = "the Room "+(lvlword.levelNumber+1)
         condicionalColorHealthAndTimer()
 
         requestAnimationFrame(gamearea)
